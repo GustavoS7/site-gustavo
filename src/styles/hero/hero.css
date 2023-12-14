@@ -1,25 +1,28 @@
 .hero__container {
   min-height: 100vh;
 
+  max-width: 1280px;
+  margin: 0 auto;
+
   font-size: 1.25rem;
 
   display: flex;
   justify-content: center;
   align-items: center;
-
-  padding: 10rem;
-
-  background-color: #0e0d0e;
 }
 
 .hero__container h2 {
   font-size: 2rem;
   font-weight: bold;
-  color: #bb2b9c;
+  color: #37C1D3;
 }
 
 .hero__container p {
-  color: #c6c6c6;
+  color: #445964;
+}
+
+.hero__info {
+  flex-grow: 1;
 }
 
 .hero__title {
@@ -27,12 +30,11 @@
   line-height: 1;
   margin-bottom: 1rem;
   font-weight: bold;
-  
+  color: #1A4A67;
 }
 
 .hero__img_container {
-  /* background-color: #bb2b9c; */
-  border-radius: 50%;
-  /* background: #bb2b9c; */
+  flex-grow: 1;
+  margin-top: 2rem;
 }
 

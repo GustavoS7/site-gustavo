@@ -1,0 +1,27 @@
+.skills__container {
+  min-height: 100vh;
+
+  display: flex;
+  justify-content: center;
+}
+
+.skills__content {
+  max-width: 1280px;
+  width: 100%;
+}
+
+.skills__techs {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.skills__techs svg {
+  width: 5rem;
+  filter: grayscale(1);
+}
+
+.skills__techs svg:hover {
+  filter: grayscale(0);
+}

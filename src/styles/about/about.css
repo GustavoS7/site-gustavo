@@ -1,0 +1,25 @@
+.about__container {
+  background-color: #f1f1fa;
+  min-height: 100vh;
+
+  display: flex;
+  justify-content: center;
+}
+
+.about__content {
+  max-width: 1280px;
+  width: 100%;
+}
+
+.about__title {
+  font-size: 4rem;
+  color: #445964;
+}
+
+.about__title span {
+  color: #37C1D3;
+}
+
+.about__me {
+  color: #445964;
+}

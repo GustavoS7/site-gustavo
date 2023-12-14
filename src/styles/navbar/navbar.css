@@ -1,27 +1,51 @@
 .navbar__container {
   width: 100%;
-  height: 4rem;
-
-  padding: 0 2rem;
+  padding: 1rem 5rem;
 
   position: absolute;
   top: 0;
 
-  background-color: #000;
-  /* background-color: transparent; */
+  background-color: #1A4A67;
 
   display: flex;
   align-items: center;
+  justify-content: center;
+}
+
+.navbar__nav {
+  max-width: 1280px;
+  width: 100%;
+
+  display: flex;
   justify-content: space-between;
+
 }
 
 .navbar__logo {
   display: flex;
   gap: .25rem;
-  font-size: 1.25rem;
+  font-size: 1.5rem;
   font-weight: bold;
 }
 
+.navbar__name {
+  color: white;
+}
+
 .navbar__brackets {
-  color: #bb2b9c;
+  color: #37C1D3;
+}
+
+.navbar__group {
+  font-size: 1.2rem;
+  
+  display: flex;
+  gap: 3rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.navbar__item {
+  text-decoration: none;
+  color: white;
 }
