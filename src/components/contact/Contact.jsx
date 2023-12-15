@@ -2,7 +2,7 @@ import { Project } from "./icon/project";
 
 export function Contact() {
   return (
-    <div className="contact__container">
+    <div className="contact__container" id="contact">
       <div className="contact__content">
         <div className="contact__hero">
           <h1 className="contact__title">Algo em <span>mente?</span></h1>

@@ -24,6 +24,9 @@
 
 .hero__info {
   flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
 }
 
 .hero__title {
@@ -39,10 +42,37 @@
   margin-top: 2rem;
 }
 
+.hero__icons {
+  display: flex;
+  gap: 3rem;
+}
+
+.hero__icon {
+  width: 3rem;
+
+  transition: .2s;
+}
+
+.hero__icon:hover {
+  transform: scale(1.1);
+}
+
 @media (max-width: 720px) {
   .hero__container {
     flex-direction: column;
-    padding-top: 8rem;
+    padding-top: 6rem;
+  }
+
+  .hero__info {
+    gap: 2rem;
+  }
+
+  .hero__icons {
+    justify-content: center;
+  }
+
+  .hero__icon {
+    width: 2rem;
   }
 
   .hero__title {
@@ -55,5 +85,9 @@
 
   .hero__container p {
     font-size: 1.5rem;
+  }
+
+  .hero__img_container {
+    margin-top: 0;
   }
 }

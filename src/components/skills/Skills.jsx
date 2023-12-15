@@ -20,7 +20,7 @@ import { Yarn } from './icons/yarn'
 
 export function Skills() {
   return (
-    <div className="skills__container">
+    <div className="skills__container" id='skills'>
       <div className="skills__content">
         <h1 className='skills_title'>
           Minhas <span>Habilidades</span>

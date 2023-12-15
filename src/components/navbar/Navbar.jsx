@@ -9,8 +9,9 @@ export function Navbar () {
         </div>
         <div className="navbar__group">
           <a className="navbar__item" href="#about">Sobre mim</a>
-          <a className="navbar__item" href="">Projetos</a>
-          <a className="navbar__item" href="">Contato</a>
+          <a className="navbar__item" href="#skills">Habilidades</a>
+          <a className="navbar__item" href="#projects">Projetos</a>
+          <a className="navbar__item" href="#contact">Contato</a>
         </div>
       </div>
     </nav>

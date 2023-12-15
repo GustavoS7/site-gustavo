@@ -91,3 +91,29 @@
   background-color: #1A4A67;
   color: white;
 }
+
+@media (max-width: 720px) {
+  .projects__content {
+    padding: 2rem;
+    gap: 3rem;
+  }
+
+  .projects__title {
+    font-size: 3rem;
+  }
+
+  .projects__card_container {
+    flex-direction: column;
+    gap: 2rem;
+    height: auto;
+  }
+
+  .projects__project_info {
+    gap: 2rem;
+  }
+
+  .projects__project_info a {
+    background-color: #1A4A67;
+    color: white;
+  }
+}

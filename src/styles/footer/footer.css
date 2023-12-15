@@ -1,5 +1,7 @@
 .footer_container {
   border-top: 1px solid #1A4A67;
+
+  background-color: #1A4A67;
   padding: 3rem;
 }
 
@@ -19,4 +21,14 @@
 .footer__icon:hover {
   transform: scale(1.2);
   cursor: pointer;
+}
+
+@media (max-width: 720px) {
+  .footer__content {
+    gap: 2rem;
+  }
+
+  .footer__icon {
+    width: 2.5rem;
+  }
 }

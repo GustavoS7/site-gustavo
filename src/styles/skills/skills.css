@@ -49,3 +49,22 @@
   transform: scale(1.1);
   margin: 0 8px;
 }
+
+@media (max-width: 720px) {
+  .skills__content {
+    padding: 2rem;
+  }
+
+  .skills_title {
+    text-align: start;
+    font-size: 3rem;
+  }
+
+  .skills__techs svg {
+    width: 5rem;
+  }
+
+  .skills__techs svg:hover {
+    margin: 0 3px;
+  }
+}

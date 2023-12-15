@@ -18,11 +18,11 @@ export function Home () {
       
       <Skills />
 
-      {/* <Projects /> */}
+      <Projects />
 
-      {/* <Contact /> */}
+      <Contact />
 
-      {/* <Footer /> */}
+      <Footer />
     </div>
   )
 }

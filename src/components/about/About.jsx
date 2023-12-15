@@ -4,7 +4,7 @@ export function About() {
   return (
     <div className="about__container" id="about">
       <div className="about__content">
-      <div className="about__img">
+        <div className="about__img">
           <Icon />
         </div>
         <div className="about__info">

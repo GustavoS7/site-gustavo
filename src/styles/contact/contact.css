@@ -74,3 +74,23 @@
 .contact__form_group textarea {
   resize: none;
 }
+
+@media (max-width: 720px) {
+  .contact__content {
+    flex-direction: column;
+    gap: 3rem;
+    padding: 2rem;
+  }
+
+  .contact__title {
+    font-size: 3rem;
+  }
+
+  .contact__subtitle {
+    font-size: 2rem;
+  }
+
+  .contact__form_container {
+    padding: 1rem;
+  }
+}
