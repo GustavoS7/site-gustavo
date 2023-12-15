@@ -3,25 +3,49 @@
 
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 .skills__content {
   max-width: 1280px;
   width: 100%;
+
+  text-align: center;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+}
+
+.skills_title {
+  font-size: 4rem;
+  color: #445964;
+}
+
+.skills_title span {
+  color: #37C1D3;
 }
 
 .skills__techs {
   display: flex;
   flex-wrap: wrap;
+  gap: 3rem;
   justify-content: center;
   align-items: center;
+  height: fit-content;
 }
 
 .skills__techs svg {
-  width: 5rem;
+  width: 7rem;
+  height: fit-content;
   filter: grayscale(1);
+  transition: .3s;
 }
 
 .skills__techs svg:hover {
   filter: grayscale(0);
+  transform: scale(1.1);
+  margin: 0 8px;
 }
