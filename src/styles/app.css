@@ -2,6 +2,9 @@
 @import url('./navbar/navbar.css');
 @import url('./about/about.css');
 @import url('./skills/skills.css');
+@import url('./projects/projects.css');
+@import url('./contact/contact.css');
+@import url('./footer/footer.css');
 
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
@@ -20,5 +23,4 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  
 }

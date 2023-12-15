@@ -1,0 +1,22 @@
+.footer_container {
+  border-top: 1px solid #1A4A67;
+  padding: 3rem;
+}
+
+.footer__content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+}
+
+.footer__icon {
+  width: 2rem;
+
+  transition: .2s;
+}
+
+.footer__icon:hover {
+  transform: scale(1.2);
+  cursor: pointer;
+}

@@ -49,3 +49,18 @@
   text-decoration: none;
   color: white;
 }
+
+@media (max-width: 720px) {
+  .navbar__container {
+    padding: 1rem;
+  }
+
+  .navbar__logo {
+    font-size: 1rem;
+  }
+
+  .navbar__group {
+    display: none;
+  }
+}
+

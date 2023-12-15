@@ -45,3 +45,35 @@
 .about__img {
   flex-grow: 1;
 }
+
+@media (max-width: 720px) {
+  .about__content {
+    flex-direction: column;
+    padding: 2rem;
+    order: 2;
+    gap: 3rem;
+  }
+
+  .about__img {
+    order: 1;
+  }
+
+  .about__info {
+    order: 0;
+
+    gap: 0rem;
+  }
+
+  .about__title  {
+    font-size: 3.5rem;
+  }
+
+  .about__me {
+    font-size: 1rem;
+  }
+
+  .about__img {
+    width: 70%;
+    margin: 0 auto;
+  }
+}
